@@ -2,15 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(IOController))]
 public class TabGroup : MonoBehaviour
 {
+    public IOController iOController;
     public List<TabButton> tabButtons;
     public List<GameObject> pagesToSwap;
     public float tabIdle;
     public float tabActive;
     public Color tabHover;
     public TabButton selectedTab;
-
 
     public void Start()
     {
@@ -22,7 +23,9 @@ public class TabGroup : MonoBehaviour
         {
             OnTabSelected(tabButtons[0]);
         }
+
     }
+
     public void Subscribe(TabButton button)
     {
         if (tabButtons == null)
@@ -31,6 +34,9 @@ public class TabGroup : MonoBehaviour
         }
 
         tabButtons.Add(button);
+
+        int index = button.transform.GetSiblingIndex();
+        iOController.LoadNote(index);
     }
 
     public void OnTabEnter(TabButton button)

@@ -15,21 +15,10 @@ public class IOController : MonoBehaviour
     void Start()
     {
         Debug.Log("Initializing the IOController...");
-
-        for (int i=0; i < tabGroup.tabButtons.Count; i++)
-        {
-            textContent = PlayerPrefs.GetString("NoteContents" + i);
-            textArea = tabGroup.pagesToSwap[i];
-            textArea.GetComponent<InputField>().text = textContent;
-        }
-        
-        
     }
 
     public void SaveNote()
     {
-        textContent = note.GetComponent<Text>().text;
-
         TabButton selectedTab = tabGroup.GetSelectedTab();
         int selectedIndex = selectedTab.transform.GetSiblingIndex();
 
@@ -37,6 +26,13 @@ public class IOController : MonoBehaviour
 
         PlayerPrefs.SetString("NoteContents" + selectedIndex, textContent);
         StartCoroutine(SaveNoteToast());
+    }
+
+    public void LoadNote(int index)
+    {
+        textContent = PlayerPrefs.GetString("NoteContents" + index);
+        textArea = tabGroup.pagesToSwap[index];
+        textArea.GetComponent<InputField>().text = textContent;
     }
 
     IEnumerator SaveNoteToast()
