@@ -10,6 +10,8 @@ A small notepad app implementing some App Development with Unity tutorials.
 
 [![TabSys][yt]][4] Creating a Custom Tab System in Unity by ***Game Dev Guide***
 
+[![TabSys][yt]][7] Scriptable Objects in Unity by ***Brackeys***
+
 [![EditorWin][yt]][5] Easy editor windows in Unity using serialized properties by ***Game Dev Guide***
 
 [![LocalizationTool][yt]][6] Building a localization tool in Unity by ***Game Dev Guide***
@@ -25,3 +27,4 @@ A small notepad app implementing some App Development with Unity tutorials.
 [4]: https://www.youtube.com/watch?v=211t6r12XPQ (Tab System - Game Dev Guide)
 [5]: https://www.youtube.com/watch?v=c_3DXBrH-Is (Editor Window - Game Dev Guide)
 [6]: https://www.youtube.com/watch?v=c-dzg4M20wY&t=1s (Localization Tool - Game Dev Guide)
+[7]: https://www.youtube.com/watch?v=aPXvoWVabPY (Scriptable Objects - Brackeys)
