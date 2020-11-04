@@ -5,9 +5,11 @@ using UnityEngine.UI;
 
 public class ButtonController : MonoBehaviour
 {
-    public GameObject textArea;
+    public TabGroup tabGroup;
     public GameObject quitPanel;
     public AudioSource clearSound;
+
+    private GameObject textArea;
 
     // Start is called before the first frame update
     void Start()
@@ -18,6 +20,8 @@ public class ButtonController : MonoBehaviour
     // Clears the whole notepad input field.
     public void ClearText()
     {
+        int index = tabGroup.GetSelectedTab().transform.GetSiblingIndex();
+        textArea = tabGroup.pagesToSwap[index];
         textArea.GetComponent<InputField>().text = "";
         clearSound.Play();
     }

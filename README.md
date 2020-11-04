@@ -1,18 +1,24 @@
 # NotepadApp
-A small notepad app implementing some App Development with Unity tutorials.
+A small notepad app providing a canvas for testing, implementing and exploring App Development using Unity. It serves as a learning project and exploration of Unity.
 
 ## Sources
-[![NotepadApp][yt]][1] Notepad: How to make an App in Unity by ***Jimmy Vegas***
+[![NotepadApp][yt]][1] Notepad: How to Make an App in Unity by ***Jimmy Vegas***
 
-[![UITips][yt]][2] Making UI that looks good in Unity using color palettes, layout, components and blur panel by ***Game Dev Guide***
+[![UITips][yt]][2] Making UI That Looks Good in Unity Using Color Palettes, Layout, Components and Blur Panel by ***Game Dev Guide***
 
-[![UIAnim][yt]][3] You're animating your UI wrong in Unity by ***Game Dev Guide***
+[![UIAnim][yt]][3] You're Animating Your UI Wrong in Unity by ***Game Dev Guide***
 
 [![TabSys][yt]][4] Creating a Custom Tab System in Unity by ***Game Dev Guide***
 
-[![EditorWin][yt]][5] Easy editor windows in Unity using serialized properties by ***Game Dev Guide***
+[![TabSys][yt]][7] Scriptable Objects in Unity by ***Brackeys***
 
-[![LocalizationTool][yt]][6] Building a localization tool in Unity by ***Game Dev Guide***
+[![SerializedVsPublic][yt]][8] Serialized Field Vs Public properties | Unity Game Dev Tutorial by ***Lost Relic Games***
+
+[![SerialClass][yt]][8] Serializing Custom Classes by ***Comp-3 Interactive***
+
+[![EditorWin][yt]][5] Easy Editor Windows in Unity Using Serialized properties by ***Game Dev Guide***
+
+[![LocalizationTool][yt]][6] Building a Localization Tool in Unity by ***Game Dev Guide***
 
 
 <!-- Icons -->
@@ -25,3 +31,6 @@ A small notepad app implementing some App Development with Unity tutorials.
 [4]: https://www.youtube.com/watch?v=211t6r12XPQ (Tab System - Game Dev Guide)
 [5]: https://www.youtube.com/watch?v=c_3DXBrH-Is (Editor Window - Game Dev Guide)
 [6]: https://www.youtube.com/watch?v=c-dzg4M20wY&t=1s (Localization Tool - Game Dev Guide)
+[7]: https://www.youtube.com/watch?v=aPXvoWVabPY (Scriptable Objects - Brackeys)
+[8]: https://www.youtube.com/watch?v=5fhTXnos_go (Serializing Classes - Comp-3 Interactive)
+[9]: https://www.youtube.com/watch?v=_9LJqhAj-FU (Serialized vs Public - Lost Relic Games)

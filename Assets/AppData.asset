@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b857ac9dac6f8f54d888d0591650699d, type: 3}
+  m_Name: App Data
+  m_EditorClassIdentifier: 
+  version: 
+  appInformation:
+    name: Notepad App
+    companyName: Florero Verde
+    bundleID: 1.0
+    description: Notepad to take and save notes on the fly. It comes with 5 different
+      tabs that facilitates organizing and labeling notes.
+    releaseNotes:
+      note1: Add seal tags to each page
+      note2: Add scriptable object for seal tags
+      note3: Add App Data object to store information
+      note4: Implement custom editor window for App Data
+      additonalInformation: "This project is meant as a canvas for tutorial exercises
+        and exploration of different tools and features of Unity. \nIt is based on
+        many different video tutorials and documentation sites."
+  develInformation:
+    maintainer:
+      name: Laverden
+      email: nlav05@gmail.com
+      phoneNumber: +45 52730132
+    reviewer:
+      name: 
+      email: 
+      phoneNumber: 
