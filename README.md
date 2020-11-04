@@ -1,5 +1,5 @@
 # NotepadApp
-A small notepad app implementing some App Development with Unity tutorials.
+A small notepad app providing a canvas for testing, implementing and exploring App Development using Unity. It serves as a learning project and exploration of Unity.
 
 ## Sources
 [![NotepadApp][yt]][1] Notepad: How to Make an App in Unity by ***Jimmy Vegas***
