@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b29c969256d432d4aaea45233557ad9c, type: 3}
   m_Name: PageRedTag
   m_EditorClassIdentifier: 
-  sealName: Rosenrot
-  sealColor: {r: 0.7735849, g: 0.09122462, b: 0.5197809, a: 1}
-  sealCategory: {fileID: 21300000, guid: aa2867364cb53f449a5dad7003601707, type: 3}
+  SealName: Rosenrot
+  SealColor: {r: 0.4811321, g: 0.024964403, b: 0.124889426, a: 1}
+  SealCategory: {fileID: 21300000, guid: aa2867364cb53f449a5dad7003601707, type: 3}

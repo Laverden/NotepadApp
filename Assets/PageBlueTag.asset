@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b29c969256d432d4aaea45233557ad9c, type: 3}
   m_Name: PageBlueTag
   m_EditorClassIdentifier: 
-  sealName: Otherside
-  sealColor: {r: 0.5019608, g: 0.14055054, b: 0.6981132, a: 1}
-  sealCategory: {fileID: 21300000, guid: aa2867364cb53f449a5dad7003601707, type: 3}
+  SealName: ToDo
+  SealColor: {r: 0.29981837, g: 0.010457456, b: 0.4433962, a: 1}
+  SealCategory: {fileID: 21300000, guid: cfe8670fac8a6e54a895c6b1053c294f, type: 3}

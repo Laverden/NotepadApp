@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b29c969256d432d4aaea45233557ad9c, type: 3}
   m_Name: PageGreenTag
   m_EditorClassIdentifier: 
-  sealName: Te Quier P...
-  sealColor: {r: 0.12302739, g: 0.5, b: 0.08254716, a: 1}
-  sealCategory: {fileID: 21300000, guid: cfe8670fac8a6e54a895c6b1053c294f, type: 3}
+  SealName: Profanity
+  SealColor: {r: 0.021804927, g: 0.6603774, b: 0.4187884, a: 1}
+  SealCategory: {fileID: 21300000, guid: aa2867364cb53f449a5dad7003601707, type: 3}

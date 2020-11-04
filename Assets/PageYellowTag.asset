@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b29c969256d432d4aaea45233557ad9c, type: 3}
   m_Name: PageYellowTag
   m_EditorClassIdentifier: 
-  sealName: Main
-  sealColor: {r: 0.8490566, g: 0.70662844, b: 0.10012458, a: 1}
-  sealCategory: {fileID: 21300000, guid: a6c0363c040439544931636824e97a67, type: 3}
+  SealName: Main
+  SealColor: {r: 0.8207547, g: 0.62704617, b: 0.034843344, a: 1}
+  SealCategory: {fileID: 21300000, guid: a6c0363c040439544931636824e97a67, type: 3}
