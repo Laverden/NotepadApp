@@ -18,7 +18,9 @@ A small notepad app providing a canvas for testing, implementing and exploring A
 
 [![EditorWin][yt]][5] Easy Editor Windows in Unity Using Serialized properties by ***Game Dev Guide***
 
-[![LocalizationTool][yt]][6] Building a Localization Tool in Unity by ***Game Dev Guide***
+[![LocalizationTool1][yt]][6] Building a Localization Tool in Unity - Part 1 by ***Game Dev Guide***
+
+[![LocalizationTool2][yt]][10] Building a Localization Tool in Unity - Part 2 by ***Game Dev Guide***
 
 
 <!-- Icons -->
@@ -30,7 +32,8 @@ A small notepad app providing a canvas for testing, implementing and exploring A
 [3]: https://www.youtube.com/watch?v=Ll3yujn9GVQ (UI Animation - Game Dev Guide)
 [4]: https://www.youtube.com/watch?v=211t6r12XPQ (Tab System - Game Dev Guide)
 [5]: https://www.youtube.com/watch?v=c_3DXBrH-Is (Editor Window - Game Dev Guide)
-[6]: https://www.youtube.com/watch?v=c-dzg4M20wY&t=1s (Localization Tool - Game Dev Guide)
+[6]: https://www.youtube.com/watch?v=c-dzg4M20wY&t=1s (Localization Tool Pt1 - Game Dev Guide)
 [7]: https://www.youtube.com/watch?v=aPXvoWVabPY (Scriptable Objects - Brackeys)
 [8]: https://www.youtube.com/watch?v=5fhTXnos_go (Serializing Classes - Comp-3 Interactive)
 [9]: https://www.youtube.com/watch?v=_9LJqhAj-FU (Serialized vs Public - Lost Relic Games)
+[10]: https://www.youtube.com/watch?v=E-PR0d0Jb5A (Localization Tool Pt2 - Game Dev Guide)
