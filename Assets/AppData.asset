@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b857ac9dac6f8f54d888d0591650699d, type: 3}
-  m_Name: App Data
+  m_Name: AppData
   m_EditorClassIdentifier: 
   version: 
   appInformation:
