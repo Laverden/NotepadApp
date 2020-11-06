@@ -7,13 +7,12 @@ public class TextLocalizerUI : MonoBehaviour
 {
     Text textField;
 
-    public string key;
+    public LocalizedString localizedString;
 
     // Start is called before the first frame update
     void Start()
     {
         textField = GetComponent<Text>();
-        string value = LocalizationSystem.GetLocalizedValue(key);
-        textField.text = value;
+        textField.text = localizedString.value;
     }
 }

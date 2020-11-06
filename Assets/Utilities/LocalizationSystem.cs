@@ -41,6 +41,12 @@ public class LocalizationSystem
         localizedGE = csvLoader.GetDictionaryValues("de");
     }
 
+    public static Dictionary<string, string> GetDictionaryForEditor()
+    {
+        if (!isInit) { Init();  }
+        return localizedEN;
+    }
+
     /// <summary>
     /// 
     /// </summary>
